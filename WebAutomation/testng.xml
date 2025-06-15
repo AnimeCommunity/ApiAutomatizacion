@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PerfDog API Tests">
+    <test name="User Tests">
+        <classes>
+            <class name="com.perfdog.api.User"/>
+            <class name="com.perfdog.api.Macotas"/>
+            <class name="com.perfdog.api.Ordenes"/>
+        </classes>
+    </test>
+</suite>
